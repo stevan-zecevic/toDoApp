@@ -1,0 +1,53 @@
+h3 {
+	color: gray;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+p {
+	margin: 10px 0px;
+	padding: 10px;
+	border: 2px solid #2a9df4;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	background: #2a9df4;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.tasksList {
+	height: 75%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 20px;
+	width: 100%;
+	overflow-y: scroll;
+}
+
+.finishedTasks {
+	width: 100%;
+}
+
+.unfinishedTasks {
+	width: 100%;
+}
+
+.tasks {
+	transition: all 1s;
+}
+
+.red {
+	background: #a71d1d;
+	border-color: #b30000;
+	box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.orange {
+	border-color: #986200;
+	background: #bb7900;
+	box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1);
+}
